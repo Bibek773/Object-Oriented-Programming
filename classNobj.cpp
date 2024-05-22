@@ -23,9 +23,10 @@ void bibek::display(){
 int main(){
     bibek b1, b2;
     b1.input();
-    b1.display();
+
     b2.input();
     b2.display();
+    b1.display();
 
     return 0;
 }

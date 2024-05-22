@@ -4,17 +4,20 @@ using namespace std;
 class bibek
 {
     int flightno;
-    string name, d_city, a_city, seat;
+    string fname, lname, d_city, a_city, seat;
     public:
         void input() {
-            cout<<"\n Enter name.\n";
-            cin>>name;
-            cout<<"Departure city:";
-            cin>>d_city;
-             cout<<"Arrival city:";
-            cin>>a_city;
+            cout<<"\n Enter first name.\n";
+            cin>> fname;
+            cout<<"\n Enter last name.\n";
+            cin>> lname;
+            cout<<"Departure city:"<<endl;
+            cin>> d_city;
+             cout<<"Arrival city:"<<endl;
+            cin>> a_city;
             cout<<"flight no:";
             cin>>flightno;
+
             cout<<"seat no";
             cin>>seat;
         }
@@ -23,7 +26,7 @@ class bibek
 
 void bibek::display(){
     cout<<"\n\n\n\t\t\t\t Qatar Airlines";
-    cout<<"\n\n\tName of the passenger:\t\t\t"<<name;
+    cout<<"\n\n\tName of the passenger:\t\t\t"<<fname<<" "<<lname;
     cout<<"\n\tDeparture city:"<<d_city<<"\t\tArrival city:"<<a_city;
     cout<<"\n\tFlight no:"<<flightno<<"\t\t\tSeat no:"<<seat;
     cout<<"\n\n\n \t\t\t Have a safe flight";
