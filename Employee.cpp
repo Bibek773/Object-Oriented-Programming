@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class masubhat
+class employee
 {
 
     int sal;
@@ -20,7 +20,7 @@ public:
     void display();
 
 };
-void masubhat::display()
+void employee::display()
 {
     cout<<"\nName is"<<f_name<<" "<<l_name;
     cout<<"\nSalery:"<<sal;
@@ -40,6 +40,7 @@ int main()
     for(int i=0; i<n; i++){
         cout<<"\nDetails of employee\n "<<i+1;
         b[i].display();
+
     }
     return 0;
 }
