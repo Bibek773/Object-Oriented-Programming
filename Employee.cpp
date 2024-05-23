@@ -32,7 +32,7 @@ int main()
     int n;
     cout<<"\nEnter the no of Employee:\n";
     cin>>n;
-    masubhat b[n];
+    employee b[n];
     for(int i=0; i<n; i++){
         cout<<"\nEnter  details for employee "<<i+1;
         b[i].input();
