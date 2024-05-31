@@ -29,9 +29,11 @@ int main() {
     cin >> f >> l;
 
     hariom bibek(f, l);
-    hariom bibek(f);
-    hariom bibek;
+    hariom bibe(f);
+    hariom bib;
     bibek.display();
+    bibe.display();
+    bib.display();
 
     return 0;
 }
