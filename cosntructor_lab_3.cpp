@@ -2,7 +2,7 @@
 using namespace std;
 
 class hariom {
-private:
+protected:
     string type, brand, year;
 
 public:
